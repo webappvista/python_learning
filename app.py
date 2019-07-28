@@ -31,3 +31,20 @@
 
 # for i in range(1, 11, 2):
 #     print("Attempt", i, i * ".")
+
+high_income = False
+good_credit = True
+student = True
+
+if high_income and good_credit and student:
+    print("You are Approved and You get very low interest")
+elif high_income or good_credit and student:
+    print("Eligible but, high interest")
+else:
+    print("You are NOT approved")
+
+age = 66
+if 18 <= age <= 65:
+    print('Eligible')
+else:
+    print('Not Eligible')
