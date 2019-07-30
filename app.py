@@ -87,8 +87,8 @@
 #     print(number)
 #     number //= 2
 
-command = ""
+# command = ""
 
-while command.lower() != "quite":
-    command = input(">")
-    print("Echoing", command)
+# while command.lower() != "quite":
+#     command = input(">")
+#     print("Echoing", command)
