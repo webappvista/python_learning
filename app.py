@@ -92,3 +92,47 @@
 # while command.lower() != "quite":
 #     command = input(">")
 #     print("Echoing", command)
+
+# Functions
+# defining a function
+
+# def greet(first_name, last_name):
+#     print(f" Hi {first_name} {last_name}")
+#     print(f" welcome aboard {first_name} {last_name}. ")
+
+
+# greet('mike', 'smith')
+
+# def get_greeting(name, last):
+#     return f" hello {name} {last}."
+
+
+# message = get_greeting('Miky', 'hi')
+# print(message)
+
+# Keyword arguments in functions
+
+# def increment(number, by):
+#     return number + by
+
+
+# print(increment(2, 1))
+
+# default arguments in function
+
+# def increment(number, by=1):
+#     return number + by
+
+
+# print(increment(5))
+
+# Functions with extra arguments that returns a tuple
+
+# def multipy(*numbers):
+#     total = 1
+#     for i in numbers:
+#         total *= i
+#     return total
+
+
+# print(multipy(2, 3, 4, 5, 10, 38, 2))
