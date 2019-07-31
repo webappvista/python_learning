@@ -136,5 +136,3 @@
 
 
 # print(multipy(2, 3, 4, 5, 10, 38, 2))
-
-print("hello world")
